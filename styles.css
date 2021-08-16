@@ -1,0 +1,98 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' ;
+    background-color: gold;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ins{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .left{
+      width: 390px;
+      padding: 40px;
+      background-color: rgb(220, 220, 220);
+      height: 494px;
+      overflow: auto;
+
+  }
+  .left-heading-info{
+      display: flex;
+      justify-content: space-between;
+  }
+  .left-desc{
+      font-size: 30px;
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+  }
+  .left-desc:hover{
+      opacity: 0.5;
+  }
+  .cards{
+      cursor: pointer;
+      background-color: #fff;
+      border-radius: 5px;
+      border: 3px solid white;
+      padding: 5px;
+      margin-bottom: 20px;
+  }
+  .cards:hover{
+    border-color:rgba(3, 102, 214, 0.3) ;   
+}
+
+.right{
+    width: 560px;
+    background-color: #fff;
+}
+.right-head__info{
+    display: flex;
+    justify-content: space-between;
+}
+.dollar{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.phones-item{
+    display: flex;
+}
+.plus{
+    width: 30px;
+    height: 30px;
+ display: flex;
+ align-items: center;justify-content: center;
+     border-radius: 50%;
+  
+}
+.h3-color{
+    font-size: 9px;
+}
+.phone-h3{
+    flex-direction: column;
+}
+.list-info{
+    flex-direction: column;
+}
